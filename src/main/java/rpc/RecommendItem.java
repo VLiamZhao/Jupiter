@@ -26,8 +26,7 @@ public class RecommendItem extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("application/json");
 		PrintWriter writer = response.getWriter();
 		
@@ -36,6 +35,7 @@ public class RecommendItem extends HttpServlet {
 		array.put(new JSONObject().put("name", "1234").put("address", "San Jose").put("time", "01/01/2017"));
 		writer.print(array);
 	}
+
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
