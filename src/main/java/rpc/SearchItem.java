@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.json.JSONArray;
 
 import entity.Item;
-import githubapi.GitHubClient;
+import githubAPI.GitHubClient;
 
 /**
  * Servlet implementation class SearchItem
