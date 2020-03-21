@@ -1,8 +1,0 @@
-githubAPI/MonkeyLearnClient.class
-rpc/RpcHelper.class
-entity/Item.class
-rpc/SearchItem.class
-rpc/RecommendItem.class
-githubAPI/GitHubClient.class
-entity/Item$ItemBuilder.class
-entity/Item$1.class
